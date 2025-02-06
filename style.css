@@ -1,0 +1,113 @@
+.navbar {
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.image{
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+
+.navbar-brand {
+
+    font-size: 15px;
+}
+
+.elements{
+    margin-right: 360px;
+    size: 5px;
+}
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+}
+
+.button {
+    height: 40px;
+    width: 100px;
+}
+
+.green {
+    
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    text-align: center;
+}
+
+.heading {
+    color: aliceblue;
+}
+
+.login, .sign {
+    background-color: rgba(19, 19, 19, 0.605);
+    color: rgb(240, 231, 231);
+    border: solid rgb(247, 243, 243) 1px;
+    border-radius: 6px;
+    height: 40px;
+    width: 80px;
+    margin: 5px; /*  space between buttons */
+}
+
+.heading h1 {
+    padding-top: 0;
+    font-size: 60px;
+    margin: 0; /* Remove margin */
+}
+
+.heading p {
+    padding-bottom: 0;
+    margin-left: 0;
+}
+
+    
+
+.onnimage{
+    margin-bottom: 55px;
+    margin-right: 20px;
+}
+
+
+.firtdiv {
+    background-color: #fefcfc; /* Light gray background */
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row; /* Stack items vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    /* Ensure text is centered */
+    width: 700px;
+}
+.firtdiv-container {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
+    height: auto;  /* Full viewport height */
+    margin-bottom: 0px;
+}
+.maindiv{
+    margin-top: 170px;
+}
+.footer{
+    height: 110px;
+    width: 100%;
+    border-top: gray solid 1px;
+}
+
+.para{
+    padding-left: 100px;
+    padding-top: 40px;
+}
+.links ul {
+    display: flex;
+    list-style-type: none; /* Removes bullets */
+    margin-top: -35px;
+    justify-content: end;
+    gap: 15px;
+     cursor: pointer;
+}
+    
